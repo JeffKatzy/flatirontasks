@@ -13,3 +13,6 @@ class Instructor < ApplicationRecord
     self.cohorts.joins(:students)
   end
 end
+
+
+# Instead of all students, can probably write, has many students through cohorts as association.
